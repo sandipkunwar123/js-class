@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-image: url(../nature.jpeg);
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            background-blend-mode: color-dodge;
+            background-attachment: scroll;
+
+        }
+
+        .box1{
+            background-color: blue;
+            padding: 12px 16px;
+            border: 10px solid dashed;
+            border-style: solid;
+            border-radius: 100px 40px 60px; }
+
+            .Circle{
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+
+            }
+            .Circle.bg{
+                background-color: red;
+            }
+            .Circle:hover{  
+                background-color: blue;
+            }
+            .small.Circle{
+                border-radius: 50%;
+                width: 400px;
+                height: 400px;
+                background-color: green;
+            }
+            .small:hover{
+                background-color: yellow;
+                padding: 3.5rem;
+            }
+            
+
+
+            /* circleSmall width 40px height 40 background gold hover silver */
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">Hello World</div>
+    <div class="box1">Good bye</div>
+    <div class="Circle bg"></div>
+    <div class="small Circle"></div>
+
+    <div class="team">
+        <img src="../nature.jpeg" alt="person">
+    </div>
+</body>
+</html>

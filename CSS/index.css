@@ -1,0 +1,46 @@
+*{
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: "DM Sans", sans-serif;
+}
+.link:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.link:focus{
+    color: blue;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: all ease-in-out 0.5s;
+    
+}
+.box:hover{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translateX(200px) translateY(100px) scale(0.1)
+}
+.rotate{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 12px;
+    transition: all 2s ease;
+}
+.rotate:hover{
+    rotate: 200deg;
+    border-radius: 50%;
+}

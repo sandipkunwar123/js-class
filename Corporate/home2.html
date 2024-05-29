@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Corporate</title>
+
+    <style>
+        header{
+            display: flex;
+            justify-content: space-around;
+        }
+      .logo {
+        height: 1.75rem;
+      }
+
+      .nav .list {
+        list-style-type: none;
+
+        padding: 1.5rem;
+        margin: 0;
+      }
+
+      .nav .list li {
+        display: inline;
+      }
+
+      .nav .list li:not(:first-child) {
+        margin-left: 2rem;
+      }
+
+      .nav .list li a {
+        text-decoration: none;
+
+        font-size: 1rem;
+
+        color: #4a4b57;
+
+        font-weight: 400;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="./logo.png" alt="Logo" class="logo" />
+
+      <nav class="nav">
+        <ul class="list">
+          <li>
+            <a href="about.html" class="active">About</a>
+          </li>
+
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+
+          <li>
+            <a href="career.html">Career</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div>
+        <button>Login</button>
+
+        <button>Register</button>
+      </div>
+    </header>
+  </body>
+</html>

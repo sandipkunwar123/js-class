@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list{
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+
+            color: red;
+            font-size: 1rem;
+            font-weight: 700;}
+            
+        .list .item{
+            color: red;
+            display: inline;
+            margin-left: 1.5rem;}
+
+        .list .item:first-child{
+            color: blue;}
+
+        .list .item:nth-child(2){
+            color: black }
+
+        .list .item:nth-child(3){
+            color: brown;}
+
+        .list .item:nth-child(4){
+            color: yellow;}
+
+        .list .item:not(:first-child){
+            margin: 1.5rem;}
+
+        .item{
+            color: green;
+            font-size: 1rem;
+            font-weight: 900;}
+
+        .list1{
+            color: red;}
+        
+    </style>
+
+
+</head>
+<body>
+    <ol class="list1">
+        <Li>list</Li>
+    </ol>
+
+    <ul class="list">
+        <li class="item">Home</li>
+        <li class="item">About</li>
+        <li class="item">Gallery</li>
+        <li class="item">FAQ</li>
+    </ul>
+
+
+</body>
+</html>

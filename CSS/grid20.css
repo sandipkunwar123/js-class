@@ -1,0 +1,33 @@
+.box{
+   
+
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.gray{
+    background-color: gray;
+}
+.blue{
+    background-color: blue;
+}
+.purple{
+    background-color: purple;
+    
+}
+.black{
+    background-color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+    
+}
