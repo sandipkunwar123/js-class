@@ -43,8 +43,6 @@ let text = "Hello World"
 console.log(text.length)
 console.log(text.length-1)
 
-
-
 function countSpace(sentence){
     let count = 0
     for(let i=0;i<sentences.length-1;i++){
